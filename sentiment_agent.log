@@ -1,0 +1,14 @@
+2025-04-08 15:47:20,468 - test_sentiment - INFO - Loaded environment variables from .env file
+2025-04-08 15:47:20,468 - test_sentiment - INFO - Testing sentiment analysis with model: sonar-pro
+2025-04-08 15:47:20,468 - test_sentiment - INFO - Analyzing symbol: BTC/USD
+2025-04-08 15:47:20,469 - sentiment_agent - INFO - Loaded environment variables from .env file
+2025-04-08 15:47:20,545 - sentiment_agent - INFO - Initialized sentiment analysis agent with model: sonar-pro
+2025-04-08 15:47:20,545 - sentiment_agent - INFO - Using API base URL: https://litellm.deriv.ai/v1
+2025-04-08 15:47:20,545 - test_sentiment - INFO - Agent initialized in 0.08 seconds
+2025-04-08 15:47:20,545 - test_sentiment - INFO - Running detailed sentiment analysis across multiple timeframes...
+2025-04-08 15:47:33,648 - httpx - INFO - HTTP Request: POST https://litellm.deriv.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 15:47:33,657 - sentiment_agent - INFO - Completed sentiment analysis for BTC/USD (24h): somewhat bearish
+2025-04-08 15:47:50,375 - httpx - INFO - HTTP Request: POST https://litellm.deriv.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 15:47:50,378 - sentiment_agent - INFO - Completed sentiment analysis for BTC/USD (7d): neutral
+2025-04-08 15:47:50,378 - sentiment_agent - INFO - Generated detailed sentiment report for BTC/USD
+2025-04-08 15:47:50,379 - test_sentiment - INFO - Analysis completed in 29.83 seconds
