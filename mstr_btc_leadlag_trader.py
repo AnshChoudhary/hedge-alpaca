@@ -26,8 +26,8 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 # Configuration
-API_KEY = "PKKJJVBB9WM0Z8LZC55A"
-API_SECRET = "aHNjDBl4xpBEhRjhPeNRuPqkCadph7gRZtEHHCsZ"
+API_KEY = ""
+API_SECRET = ""
 
 BTC_SYMBOL = "BTC-USD"  # Yahoo Finance symbol for Bitcoin/USD
 MSTR_SYMBOL = "MSTR"    # MicroStrategy stock
